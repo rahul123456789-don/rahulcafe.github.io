@@ -1,0 +1,172 @@
+/*large screen laptops/desktops*/
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0 20px;
+    }
+}
+
+/*medium devices (landscape tabs and medium desktop)
+
+*/
+@media(min-width:992px) and (max-width:1199px) {
+
+    /*navbar*/
+    .site-nav-wrapper {
+        padding: 0;
+    }
+
+    /*main heading*/
+    #main-heading h1 {
+        font-size: 70px;
+    }
+
+    #main-heading h2 {
+        font-size: 35px;
+    }
+
+    /*sec headings*/
+
+    .sec-heading h1 {
+        font-size: 28px;
+    }
+
+
+    /*menu overlay*/
+    .cake-overlay h2 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .cake-overlay p {
+
+        padding-top: -10px;
+        line-height: 11px;
+        font-size: 11px;
+        padding-bottom: 10px;
+    }
+
+    /*chefs overlay*/
+
+    .social-icons ul li a {
+        margin-left: -40px;
+    }
+
+    /*about us*/
+    .about-para {
+        padding-bottom: 25px;
+    }
+
+
+    .about-right {
+        margin-top: 56px;
+    }
+
+    /*contact us*/
+    .contact-para {
+        padding-bottom: 30px;
+    }
+
+    form {
+        height: 67%;
+    }
+
+}
+
+
+/*small devices (portraits tabs and small desktap*/
+@media(min-width:768px)and (max-width:991px) {
+
+    /*navbar*/
+    .site-nav-wrapper {
+        padding: 0;
+    }
+
+    /*home*/
+    #home {
+        height: 90%;
+    }
+
+    /*main heading*/
+    #main-heading h1 {
+        font-size: 65px;
+    }
+
+    #main-heading h2 {
+        font-size: 35px;
+    }
+
+    /*sec headings*/
+
+    .sec-heading h1 {
+        font-size: 28px;
+    }
+
+    /*menu overlay*/
+
+    .cake-overlay h2 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .cake-overlay p {
+
+        padding-top: -10px;
+        line-height: 11px;
+        font-size: 11px;
+        padding-bottom: 10px;
+    }
+
+    /*chefs overlay*/
+    .chef {
+        position: relative;
+    }
+
+    .chef-overlay h2 {
+        padding-bottom: 0;
+        font-size: 20px;
+    }
+
+    .chef-overlay h3 {
+        font-size: 15px;
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 65%;
+        left: -10%;
+    }
+
+    .social-icons ul li a {
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+
+    /*about us */
+    .about-para {
+        padding-bottom: 25px;
+    }
+
+    #about-video {
+        padding-top: 50px;
+        padding-bottom: 153px;
+    }
+
+    .contact-para {
+        padding-bottom: 40px;
+    }
+
+    form {
+        margin-top: 50px;
+        height: 40%;
+    }
+
+    form .msg {
+        height: 55%;
+    }
+
+
+
+
+}
